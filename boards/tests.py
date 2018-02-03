@@ -102,7 +102,7 @@ class NewTopicsTestCase(TestCase):
         self.assertTrue(Post.objects.exists())
 
 
-    def test_new_topic_invalid_post_data(self):  # <- updated this one
+    def test_new_topic_invalid_post_data(self):
         '''
         Invalid post data should not redirect
         The expected behavior is to show the form again with validation errors
