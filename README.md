@@ -21,3 +21,4 @@ Instructions to begin with:
 13. To invoke shell use 'python manage.py shell' (Useful if you want to update and access database values thru python shell)
 14. To execure django's test module 'python manage.py test'
 15. Create a superaccount using 'python manage.py createsuperuser'
+16. Use this library to fix django forms API formatting 'pip install django-widget-tweaks'
