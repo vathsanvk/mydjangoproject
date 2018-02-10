@@ -22,3 +22,5 @@ Instructions to begin with:
 14. To execure django's test module 'python manage.py test'
 15. Create a superaccount using 'python manage.py createsuperuser'
 16. Use this library to fix django forms API formatting 'pip install django-widget-tweaks'
+17. To run tests for a specific app use 'python manage.py test boards'
+and on a specific file using 'python manage.py test boards.tests.test_view_topic_posts'
