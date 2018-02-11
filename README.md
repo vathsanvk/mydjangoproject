@@ -24,3 +24,9 @@ Instructions to begin with:
 16. Use this library to fix django forms API formatting 'pip install django-widget-tweaks'
 17. To run tests for a specific app use 'python manage.py test boards'
 and on a specific file using 'python manage.py test boards.tests.test_view_topic_posts'
+
+
+
+
+Credits to Vitor Freitas for the series:
+https://simpleisbetterthancomplex.com/series/beginners-guide/1.11/
