@@ -16,8 +16,8 @@ Instructions to begin with:
 8. To start a new django project use 'django-admin startproject myproject'
 9. To create a new app inside projects use 'django-admin startapp <app-name>'
 10. To run the server use 'python manage.py runserver'
-11. After you create/update the models then instruct Django to create the database using 'python manage.py makemigrations'
-12. And to apply the migration use 'python manage.py migrate'
+11. After you create/update the models then instruct Django to create the database using 'python manage.py makemigrations'. See sql queries generated before going to next step using 'python manage.py sqlmigrate app_name file_name'.
+12. And to apply the migration use 'python manage.py migrate'.
 13. To invoke shell use 'python manage.py shell' (Useful if you want to update and access database values thru python shell)
 14. To execure django's test module 'python manage.py test'
 15. Create a superaccount using 'python manage.py createsuperuser'
